@@ -1,0 +1,173 @@
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (min-device-width : 426px) and (max-device-width : 500px)  {
+
+    header{
+        height: 6vh;
+        background-color: cyan;
+    }
+
+    .hamburger {
+        margin-top: -10%;
+    }
+   
+}
+
+@media only screen and (min-device-width : 500px) and (max-device-width : 765px)  {
+
+    header {
+        height:6vh;
+    }
+
+   
+
+    th, td {
+        font-size: 11px;
+    }
+   
+}
+
+@media only screen and (min-device-width : 766px) and (max-device-width : 1024px){
+    
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+        top: 100%;
+        transform: none;
+        position: unset;
+        height: unset;
+    }
+
+    .nav ul {
+        padding: 4%;
+        background-color: unset;
+        list-style: none;
+        display: flex;
+        gap: 34px;
+    }
+
+    .nav ul li a {
+        margin-left: 50%;
+        font-size: 1em;
+        color: white;
+    }
+
+    h1{
+        font-size: 2.3em;
+        margin-left: 19%;
+    }
+
+
+    th, td {
+        font-size: 13px;
+    }
+
+    .text img{
+        margin-left: 16%;
+        border-radius: 20%;
+        width: 67%;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .text p{
+        margin-top: 3%;
+        color: #607d8b;
+        margin-bottom: 10%;
+        width: 52%;
+        margin-left: 26%;
+    }
+
+    .profil{
+        margin-bottom: 5%;
+        margin-left: 8%;
+        margin-top: 2%;
+        width: 73%;
+    }
+    
+
+    table {
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    footer a{
+        font-size: 2em;
+    }
+
+    p.copyright{
+        font-size: 0.9em;
+        color: white;
+    }
+}
+
+  
+
+@media only screen and (min-device-width : 1025px){
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+        top: 100%;
+        transform: none;
+        position: unset;
+        height: unset;
+    }
+
+    .nav ul {
+        margin-left: 11%;
+        display: flex;
+        padding: 3%;
+    }
+
+    .nav ul li a {
+        font-size: 1em;
+        color: white;
+    }
+
+    .nav ul li {
+        margin-left: 3%;
+    }
+
+
+    .img-plann {
+        height: 68vh;
+        height: 33vh;
+        margin-left: 27%;
+    }
+
+    .resa-pro img{
+        margin-left: 27%;
+        text-align: center;
+        height: 32vh;
+    }
+
+    table {
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    td {
+        width: 36px !important;
+        border: 1px solid #888889;
+        padding: 12px; 
+        font-size: 7px;
+    }
+
+    footer a{
+        font-size: 2em;
+    }
+
+    p.copyright{
+        font-size: 1em;
+    }
+       
+}    
